@@ -1,0 +1,217 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#navbar{
+    border: 1px solid;
+    height: 113px;
+    width: 100%;
+}
+
+#subnav1{
+    /* border: 1px solid; */
+    height: 75px;
+    width: 100%;
+    background-color: #0078ad;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#menu1{
+    /* border: 1px solid; */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#menu1:hover{
+    background-color: #004f72;
+    cursor: pointer;
+}
+
+#location1{
+    width: 220px;
+    height: 30px;
+    background-color: #0078ad;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 13px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#location1:hover{
+    background-color: #004f72;
+}
+
+#jiomart-logo:hover{
+    cursor: pointer;
+}
+
+#deliver{
+    font-weight: 600;
+}
+
+#search1{
+    /* border: 1px solid; */
+    height: 40px;
+    border-radius: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+}
+
+.search-cursor{
+    cursor: pointer;
+}
+
+#input-search{
+    width: 210px;
+    border: none;
+}
+
+#cart-logo{
+    /* border: 1px solid; */
+    height: 40px;
+    width: 40px;
+    background-color: #0078ad;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#cart-logo:hover{
+    background-color: #004f72;
+}
+
+#signin{
+    border: none;
+    height: 40px;
+    width: 110px;
+    color: #fff;
+    border-radius: 30px;
+    background-color: #0078ad;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#signin:hover{
+    background-color: #004f72;
+}
+
+#space1{
+    width: 360px;
+}
+
+#subnav2{
+    background-color: #004f72;
+    display: flex;
+    align-items: center ;
+}
+
+#list1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    /* border: 1px solid; */
+    width: 1050px;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #004f72;
+    color: #fff;
+}
+
+
+#list-align1{
+    padding-top: 8px;
+    height: 38px;
+}
+
+#list1 li{
+    cursor: pointer;
+}
+
+#section1{
+    padding-top: 40px;
+}
+
+.carousel-width{
+    width: 100%;
+}
+
+#offer-time{
+    background-image: url("https://www.jiomart.com/images/cms/section/images/1706379412_Timmer_Banner_2_Desktop.jpg");
+    /* border: 1px solid; */
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#timer1{
+    /* bord er: 1px solid; */
+    border-radius: 5px;
+    width: 320px;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.timer-dots{
+    padding-top: 15px;
+}
+
+.days-remain{
+    /* border: 1px solid; */
+    width: 70px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.days-color{
+    color: #cd3400;
+    font-weight: 600;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.days-weight{
+    font-weight:600;
+    margin-top: -13px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.dots-size{
+    /* border: 1px solid; */
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: rgb(83, 93, 104);
+    margin-top: 5px;
+}
+
+.deals{
+    font-weight: bolder;
+    padding-left: 30px;
+    padding-top: 30px;
+}
